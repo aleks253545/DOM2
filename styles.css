@@ -1,0 +1,56 @@
+body,.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236, 204, 134, 0.171);
+}
+.container{
+    align-items: center;
+    margin:150px auto;
+    background-color: white;
+}
+form{
+    padding-top: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+input{
+    width:320px ;
+    height: 30px;
+    border:none;
+    border-bottom: 2px solid rgba(233, 189, 123, 0.473);
+}
+button{
+    margin-left:10px;
+    height: 35px;
+    width: 55px;
+    margin-left: auto;
+    border:none;
+    background-color: rgba(233, 189, 123, 0.473) ;
+    color: white;
+}
+ul{
+    margin: 20px 10px;
+    padding: 0 5px ;
+    list-style: none;
+    width: 400px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+li{
+    box-shadow: 3px 2px 6px rgba(233, 189, 123, 0.473);
+    width: 100%;
+    margin-bottom:5px;
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.delete{
+    height: 30px;
+    width: 30px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgba(247, 214, 170, 0.479);
+}
